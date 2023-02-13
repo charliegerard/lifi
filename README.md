@@ -4,7 +4,7 @@ Prototype of Li-Fi technology to send data via light using Arduino and JavaScrip
 
 Demo transmitting a Stripe Payment Link via light:
 
-![Demo transmitting a Stripe Payment Link via light](https://res.cloudinary.com/devdevcharlie/image/upload/v1676255476/LiFi/demo-lifi-link2_toduw5.gif)
+![Demo transmitting a Stripe Payment Link via light](./demo-lifi-link.gif)
 
 For more info, check out [my blog post](https://charliegerard.dev/blog/lifi).
 

@@ -6,7 +6,7 @@ Demo transmitting a Stripe Payment Link via light:
 
 ![Demo transmitting a Stripe Payment Link via light](./demo-lifi-link.gif)
 
-For more info, check out [my blog post](https://charliegerard.dev/blog/payments-speed-light-introduction-lifi).
+For more info, check out [my blog post](https://charliegerard.dev/blog/lifi-sending-data-light).
 
 ## Material needed
 

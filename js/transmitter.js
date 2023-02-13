@@ -1,9 +1,8 @@
 var five = require("johnny-five");
 var pixel = require("node-pixel");
-var board = new five.Board({ port: "/dev/cu.usbmodem11101" });
+var board = new five.Board({ port: "/dev/cu.usbmodem1144101" });
 const INTERVAL = 100;
 var strip = null;
-// const string = "https://buy.stripe.com/test_dR6bLT5Ckaz2fWoeVZ";
 const string = "Hello, world! ";
 const strLength = string.length;
 
@@ -14,7 +13,6 @@ board.on("ready", async function () {
         strips: [{ pin: 7, length: 7 },],
         gamma: 2.8,
     });
-
 
     strip.on("ready", function () {
         strip.color('#fff');

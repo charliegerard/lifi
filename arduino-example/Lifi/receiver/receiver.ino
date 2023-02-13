@@ -1,6 +1,4 @@
 #define LDR_PIN A0
-//#define THRESHOLD 100
-//#define THRESHOLD 600
 #define THRESHOLD 480
 #define PERIOD 14
 
@@ -17,8 +15,7 @@ void loop() {
    
    if(!current_state && previous_state)
    {
-//    print_byte(get_byte()); 
-    get_byte();
+    print_byte(get_byte()); 
    }
    previous_state = current_state;
 }
@@ -26,7 +23,6 @@ void loop() {
 bool get_ldr()
 {
   int voltage = analogRead(LDR_PIN);
-  Serial.println(voltage);
   return voltage > THRESHOLD ? true : false;
 }
 

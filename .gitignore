@@ -2,4 +2,6 @@
 .git
 # Local Netlify folder
 .netlify
-web-example/
+web-example
+js.zip
+webserial.zip

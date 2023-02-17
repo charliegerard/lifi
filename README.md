@@ -1,5 +1,5 @@
 # Li-Fi
-
+by Prajwal:
 Prototype of Li-Fi technology to send data via light using Arduino and JavaScript.
 
 Demo transmitting a Stripe Payment Link via light:
